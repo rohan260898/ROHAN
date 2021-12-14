@@ -1,0 +1,654 @@
+#wrapper {
+    grid-template-columns: repeat(10,3fr);       /* grid*/
+    grid-template-rows: auto auto 1fr auto;  
+}
+
+
+ .mySlides 
+{
+    display: none
+}
+img 
+{
+    vertical-align: middle;
+}
+.slideshow-container {
+    width:100%;
+    margin-top: 2%;
+    position: relative;
+    margin: auto;
+  }
+/* Next & previous buttons of slideshow */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: rgb(85, 80, 80);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next 
+{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+  
+  
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+  
+  /* Caption text */
+  .text {
+    color: #050303;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    text-shadow: 2px;
+  }
+  
+  
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  .slidediv
+  {
+    text-align:center;
+  }
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
+.icon
+{
+    height:13%;
+}
+
+img
+{
+    height: 40%;
+    width:100%;
+}
+
+.discount
+{
+    margin-left: 2%;
+    width: 30%;
+    height: 200px;
+    position: relative;
+}
+
+.disscountdiv
+{
+    width:200px;
+}
+
+.shopping
+{
+    width:39.5%;
+    border-style:black;
+    height:80%;
+    margin-bottom: 1%;
+}
+
+h2{
+ text-align: center;
+ 
+}
+div a {
+color: black;
+
+}
+.section
+{
+    background-color:rgb(230, 122, 144);
+    height: 45%;
+    width: 100%;
+    padding-top:1% ;
+    padding-bottom: 4%;
+}
+.fashion{
+    background-color: rgb(172, 180, 252);
+    height: 50%;
+    width: 100%;
+    margin-bottom: 2%;
+    padding-top:1% ;
+    padding-bottom: 2%;
+}
+.women
+{
+    padding-top: 0%;
+    width:30.5%;
+    height: 200px;
+    margin-left: 2%;
+}
+
+.shop
+{
+    height:60%;
+}
+  @media  screen and (max-width: 600px){ /*responsive body view when width is  600px or below*/
+.container
+{
+    display: flex;
+    flex-direction: column;
+}
+  }
+  @media  screen and (max-width: 990px)
+  {
+    .section{
+      height:52%;
+    }
+    .fashion{
+      height:55%;
+    }
+    .mySlides
+    {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  @media  screen and (max-width: 850px)   /*responsive body view when width is  850px or below*/
+  {
+  .section{
+    display: flex;
+    flex-wrap: wrap;
+   }
+   
+.fashion{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    display: flex;
+}
+
+.discount{
+    width: 95%;
+     
+}
+h2{
+    text-align: center;
+    
+   }
+.women{
+    width: 95%;
+     
+}
+  }
+ 
+  @media  screen and (max-width: 500px){   /*responsive body view when width is  500px or below*/
+    
+       .section {
+        display: flex;
+        flex-direction: column;
+        align-items: center ;
+        height: auto;
+    }
+    .text{
+      font-size: 5px;
+      
+    }
+
+    .mySlides
+    {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+    #wrapper {
+            width: 100%;
+            border: none;
+            box-shadow: none;
+            display: flex;  
+            flex-direction: column;
+        }
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center ;
+        height: auto;
+    }
+    
+    nav ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        display: flex; 
+        flex-direction: column;     
+        flex-wrap: wrap;        
+        align-items: center;     
+    }
+    .section{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start ;
+        height: auto;
+    }
+    .fashion{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start ;
+      height: auto;
+  }
+    
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}	
+/*+++++++++++++++++++++++++++++++++++++css for clothing++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*#wrapper {
+  grid-template-columns: repeat(10,3fr);       
+  grid-template-rows: auto auto 1fr auto;  
+} */
+/*+++++++++++++++++++++++++++++++++++++css for main clothing page++++++++++++++++++++++++++++++++++++++++++++++++++*/
+.savemore
+{
+    height:100%;
+    width:95%;
+    margin-top: 1%;
+    padding-left:3%;
+}
+.latestdiscount
+{
+    height:100%;
+    width:95%;
+    margin-top: 2%;
+    padding-left:3%;
+}
+.lifestylesale
+{
+    height:80%;
+    width:95%;
+    margin-top: 3%;
+    padding-left:3%;
+}
+._women1,.men1,.kids1
+{
+  
+  text-align: center;
+  width:110%;
+  height:2.5%;
+  font-size: 20px;
+  margin-bottom: 2%;
+  background-color: gray;
+}
+._women1 a,.men1 a,.kids1 a
+{
+  text-decoration: none;
+  color: black;
+}
+.clothes1 a
+{
+  text-decoration: none;
+  color:white; 
+}
+.clothes1
+{
+  height:5%;
+  width:110%;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  padding-top: 15%;
+  padding-bottom:20%;
+  margin-bottom: 5%;
+  margin-top: 0%;
+  text-align: center;
+}
+/*+++++++++++++++++++++++++++++++++++++css for clothing categories++++++++++++++++++++++++++++++++++++++++++++++++++*/
+#clothing_main
+{
+  display:flex;
+  flex-direction: row;
+  margin-right: 30%;
+  width:100%;
+  height:100%;
+  margin-bottom: 55%;
+}
+.sidenav
+{
+  display: flex;
+  flex-direction: column;
+  margin-top: 0%;
+  width:15%;
+  flex-wrap: wrap;
+  background-color:white;       
+  align-items: center; 
+     
+}
+.clothes
+{
+  height:10%;
+  width:100%;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  padding-top: 15%;
+  padding-bottom:25%;
+  margin-bottom: 5%;
+  margin-top: 0%;
+  text-align: center;
+}
+
+.productlist
+{
+  width:100%;
+  padding-top:30px;
+  margin-top: 10px;
+ 
+  }
+.product
+{
+  background-color:white;
+  margin-top: 100 px;
+  margin-bottom: 10px;
+  width:26%;
+  float: left;
+  margin: 0 2%;
+  border: 1px solid;
+
+}
+.image
+{
+  width:100%;
+  margin-bottom: 10px;
+}
+.product h2
+{
+  float: left;
+  padding-left: 5%;
+}
+.product h3
+{
+  float: right;
+  padding-right: 5%;
+}
+.product p
+{
+  clear: both;
+  padding:0 5%;
+}
+.addtocart
+{
+  float:right;
+  height: 30px;
+  width:30px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+._women,.men,.kids
+{
+  
+  text-align: center;
+  width:100%;
+  height:5%;
+  font-size: 20px;
+  margin-bottom: 2%;
+  background-color: gray;
+}
+._women a,.men a,.kids a
+{
+  text-decoration: none;
+  color: black;
+}
+.clothes a
+{
+  text-decoration: none;
+  color:white; 
+}
+
+
+#mainclothes{
+display:flex;
+flex-direction: row;
+}
+#clothesdiv
+{
+  display:flex;
+  flex-direction: column;
+}
+@media  screen and (max-width: 600px)
+{
+  #mainclothes
+  {
+    display: flex;
+    flex-direction: column;
+  }
+  
+ #clothing_main
+ {
+   display:flex;
+   flex-direction:column;
+    
+  
+ }
+ .sidenav
+ {
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;        
+    align-items: center; 
+   margin:0;
+   padding:0;
+   width:100%;
+ }
+ .productlist
+ {
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   width: 100%;
+ }
+ .product
+ {
+   width:100%;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   align-items: flex-start;
+   padding-right: 10%;
+   padding-bottom: 10%;
+   
+ }
+
+ ._women,.men,.kids
+ {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+ }
+}
+
+/******************************************CSS for checkout page**************************************************/
+.checkout_container
+{
+  padding-right: 25%;
+  padding-left: 25%;
+  padding-top: 3%;
+  width:50%;
+  display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.checkout
+{
+    text-align: center;
+    font-size: 30px;
+    background-color: #1b93ee;
+    
+    
+}
+.checkOutTitle
+{
+  text-align: center;
+  font-size: 35px;
+  margin-left: 200px;
+
+}
+.checkoutform
+{
+  width:100%;
+  padding-left:5%;
+  background-color: darkgray;
+  margin-top: 2%;
+  padding-top: 3%;
+}
+#span1
+{
+  color: red;
+}
+
+.title
+{
+  margin-top: 3%;
+  
+  font-size: 20px;
+}
+input
+{
+    width:300px;
+}
+select
+{
+    width:300px;
+    height:23px;
+}
+
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+.form
+{
+    text-align: center;
+}
+#submit1
+{
+  width: 130px;
+  height: 25px;
+  margin-left: 80px;
+  background-color:#1b93ee ;
+}
+@media  screen and (max-width: 600px)
+{
+  .checkout_container
+  {
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding:0px;
+  }
+  .checkOutTitle
+{
+  text-align:center;
+  position:relative;
+  font-size: 20px;
+  margin: 0px;
+  width:50%;
+}
+.title
+{
+  margin-top: 3%;
+  
+  font-size: 10px;
+}
+.checkoutform
+{
+  width:100%;
+  background-color: darkgray;
+  margin-top: 2%;
+  padding-top: 3%;
+}
+  input
+{
+  width:50%;
+}
+#state
+{
+  width:50%;
+}
+#submit1
+{
+  width:100%;
+  margin:0px;
+}
+}
+@media  screen and (max-width: 140px)
+{
+  .checkOutTitle
+  {
+    text-align:center;
+    position:relative;
+    font-size: 10px;
+    width:50%;
+  }
+}
+@media  screen and (max-width: 70px)
+{
+  .checkOutTitle
+  {
+    text-align:center;
+    position:relative;
+    font-size: 5px;
+    width:50%;
+  }
+  .title
+{
+  margin-top: 3%;
+  
+  font-size: 3px;
+}
+}

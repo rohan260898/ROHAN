@@ -1,0 +1,208 @@
+/*CSS for the form*/
+body{
+    background-color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+    background-color: rgb(245, 234, 234);
+    width: 750px;
+    padding: 25px;
+    margin: 25px auto 0;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+}
+#para
+{
+    color: brown;
+}
+.wrapper h2{
+    background-color: rgb(245, 234, 234);
+    color: rgb(250, 62, 125);
+    font-size: 24px;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 1.5px dotted #333;
+}
+#n input[type=text], #n input[type=password] 
+{
+    width: 350px;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+}
+#n input[type=text]:focus, #n input[type=password]:focus
+{
+    outline: none;
+}
+hr 
+{
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+#s1{
+    color: red;
+}
+/* Add padding to wrapper elements */
+
+#btn1, #btn2
+{
+    background-color: #4d8b35;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/* Clear floats*/ 
+#btn::after 
+{
+    content: "";
+    clear: both;
+    display: table;
+}
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) 
+{
+    #btn1, #btn2 
+    {
+      width: 100%;
+    }
+    #wrapper {
+        width: 100%;
+        border: none;
+        box-shadow: none;
+        display: flex;              /*Changes screen, when device width low*/
+        flex-direction: column;
+    }
+}
+
+/*CSS for the payment form*/
+body 
+{
+    font-family: Arial;
+    font-size: 17px;
+    padding: 8px;
+}
+  
+*
+{
+    box-sizing: border-box;
+} 
+.row
+{
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 -16px;
+}
+.col-50
+{
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+}
+.col-50 
+{
+    margin-bottom: 80px;
+    background-color: white;
+    width: 750px;
+    padding: 25px;
+    margin: 25px auto 0;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+}
+.col-50 h3
+{
+    background-color: rgb(245, 234, 234);
+    color: rgb(250, 62, 125);
+    font-size: 24px;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 1.5px dotted #333;
+}
+input[type=text] 
+{
+    width: 60%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+label 
+{
+    margin-bottom: 10px;
+    /*display: block;*/
+}
+.icon-container 
+{
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+}
+#pay 
+{
+    background-color: #4d8b35;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#pay:hover 
+{
+    background-color: #45a049;
+}
+a 
+{
+    color: #2196F3;
+}
+hr 
+{
+    border: 1px solid lightgrey;
+}
+span.price 
+{
+    float: right;
+    color: grey;
+}
+@media screen and (max-width: 800px) 
+{
+    
+}
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+@media screen and (max-width: 800px) 
+{
+    
+    .col-50 
+    {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: flex-start;
+        width:80%;
+    }
+    #pay{
+        display: flex;
+        flex-direction: column;
+    }
+    input[type=text]{
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+  

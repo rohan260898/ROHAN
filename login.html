@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Adding favicon to the page-->
+        <link rel="shortcut icon" href="images/logo3.png"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!--Page title-->
+        <title>TechnoShop | Login </title>
+        <!--CSS files-->
+        <link rel="stylesheet" href="styles/main-rt.css">
+        <link rel="stylesheet" href="styles/header-footer-nav.css">
+        <!--Javascript files-->
+        <script src="js/navigation.js"></script>
+        <script src="js/login.js"></script>
+        
+    </head>
+
+    <body>
+        <!--Consistent Header-->
+        <header>
+            <img id="technoshop-logo" src="images/logo3.png" alt="TechnoShop logo">
+            <div>
+                <h1>TechnoShop</h1>
+                <p id ="tag-line">Shopping at its best</p>
+            </div>
+            <img id="header-gif"  src="images/logo.gif" alt="Happy Shopping">    
+        </header>
+
+        <!--Consistent Navigation Bar-->
+        <nav>
+            <ul>
+                <li id="logged-in-user"></li>  <!--Hidden element, which only appears when user logged-in -->     
+                <li><a href="home.html">Home</a></li>
+                <li><a href="my-account.html">My account</a></li>
+                <li>
+                    <a href="#">Shop</a>
+                    <ul class="drop-down">
+                        <li><a href="clothes.html">Clothing</a></li>
+                        <li><a href="accessories.html">Accessories</a></li>
+                        <li><a href="homeappliances.html">Home Appliances</a></li>
+                        <li><a href="electronic-devices.html">Electronic Devices</a></li>
+                        <li><a href="Groceryitem.html">Grocery</a></li>
+                    </ul>
+                </li>    
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="shoppingcart.html">My Cart</a></li>
+                <li><a href="Contactus.html">Contact us</a></li>
+                <li id="login"><a href="login.html">Login</a></li>
+                <li id="register"><a href="Register.html">Register</a></li>
+                <li id="logout"><a href="#">Logout</a></li>
+                
+            </ul>
+        </nav>
+
+        <!--Main content of the page-->
+        <main>
+            <div id="login-wrapper">
+                <h2>Sign-In</h2>
+                <form>
+                    <label>Email</label>
+                    <input type="email" name="email" required placeholder="Enter your email address...">
+                    <!--span tag for showing error messages-->
+                    <span class="validation-error"></span>
+
+                    <label>Password</label>
+                    <input type="password" name="email" required placeholder="Enter your password...">
+                    <span class="validation-error"></span>
+                    
+                    <button>Login</button>
+                </form>
+            </div>
+        </main>
+        
+        <!--Consistent Footer-->
+        <footer>
+                <!--About us section of footer-->
+                <div id = "footer-about-us">
+                    <img src="images/logo1.png" alt="TechnoShop logo">
+                    <p><span>ADDRESS:</span> 777 Albion Road, Etobicoke, <br> M9V 2J1, ON, Canada</p>
+                    <p><span>PHONE:</span> +1 437-991-7639</p>
+                    <p><span>EMAIL:</span> technoshop@studybuddies.com</p>
+                </div>
+
+                <!--Useful links to navigate the website-->
+                <div id = "footer-navigation">
+                    <h4>Navigate:</h4>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="my-account.html">My Account</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="shoppingcart.html">My Cart</a></li>
+                        <li><a href="Contactus.html">Contact us</a></li>
+                        <li><a href="login.html">Login</a></li>
+                        <li><a href="Register.html">Register</a></li>
+                    </ul>
+                </div>
+
+                <!--Useful links to shop in different categories-->
+                <div id = "footer-shop">
+                    <h4>Shop:</h4>
+                    <ul>
+                        <li><a href="clothes.html">Clothing</a></li>
+                        <li><a href="accessories.html">Accessories</a></li>
+                        <li><a href="homeappliances.html">Home Appliances</a></li>
+                        <li><a href="electronic-devices.html">Electronic Devices</a></li>
+                        <li><a href="Groceryitem.html">Grocery</a></li>
+                    </ul>
+                </div>
+
+                <!--List of team members of the project and links to social media handles-->
+                <div id = "footer-team-members">
+                    <h4>Team Members:</h4>
+                    <ul>
+                        <li>Mansi Patel (Team lead)</li>
+                        <li>Rahul Tiwari</li>
+                        <li>Raina Patel</li>
+                        <li>Raveena Katariya</li>
+                        <li>Rohan Patel</li>
+                    </ul>
+
+                    <h4>Follow us:</h4>
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                </div>
+                
+                <!--Copyright-->
+                <div id = "footer-copyright">
+                    Copyright &copy; 2021 Study Buddies 
+                </div>
+        </footer>
+    </body>
+</html>

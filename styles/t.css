@@ -1,0 +1,133 @@
+/* Css for homeappliance , kitchen appliance and living room pages*/
+#bg{
+    border: 2px solid;
+     
+}
+
+.fea{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#feature{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+
+}
+.toast{
+    width: 20%;
+    height: 20%;
+    margin-bottom: 3px;
+    margin-right: 60px;
+}
+.t{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.p{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.b{
+    
+    background-color: #fb774b;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: auto;
+    width: auto;
+}
+.b .active{
+    color: blue;
+}
+.b:hover{
+    color: blue;
+}
+.product{
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+.product img{
+    transition: 0.3s all;
+}
+.product:hover img{
+    transition: 0.3s all;
+    
+}
+
+hr{
+    width: 30px;
+    height: 2px;
+    background-color: #fb774b;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+.fea{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#feature{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+
+}
+.container{
+    max-width: 100%;
+    margin: auto;
+    overflow: auto;
+    background-color: #f2f2f2;
+}
+.gallery{
+    margin: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 390px;
+    padding: 10px;
+}
+.gallery img{
+    margin: 7px;
+    width: 375px;
+    height: 400px;
+    object-fit: cover;
+}
+.desc{
+    
+    text-align: center;
+}
+.b button{
+    
+    background-color: #fb774b;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: auto;
+    width: auto;
+    border: none;
+}
+.b .active{
+    color: blue;
+}
+.b:hover{
+    color: blue;
+}
+hr{
+    width: 30px;
+    height: 2px;
+    background-color: #fb774b;
+    margin-left: auto;
+    margin-right: auto;
+}

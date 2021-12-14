@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="images/logo3.png"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!--JavaScript files-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="js/navigation.js"></script>
+        <script src="js/myAccount.js"></script>
+
+
+        <title>TechnoShop | My Account </title>
+        <!--CSS files-->
+        <link rel="stylesheet" href="styles/main-rt.css">
+        <link rel="stylesheet" href="styles/header-footer-nav.css">
+    </head>
+    <body>
+        <!--Header-->
+        <header>
+            <img id="technoshop-logo" src="images/logo3.png" alt="TechnoShop logo">
+            <div>
+                <h1>TechnoShop</h1>
+                <p id ="tag-line">Shopping at its best</p>
+            </div>
+            <img id="header-gif"  src="images/logo.gif" alt="Happy Shopping">    
+        </header>
+
+        <!--Navigation Bar-->
+        <nav>
+            <ul>
+                <li id="logged-in-user"></li>        <!--Hidden element, which only appears when user logged-in -->      
+                <li><a href="home.html">Home</a></li>
+                <li><a href="my-account.html">My account</a></li>
+                <li>
+                    <a href="#">Shop</a>
+                    <ul class="drop-down">
+                        <li><a href="clothes.html">Clothing</a></li>
+                        <li><a href="accessories.html">Accessories</a></li>
+                        <li><a href="homeappliances.html">Home Appliances</a></li>
+                        <li><a href="electronic-devices.html">Electronic Devices</a></li>
+                        <li><a href="Groceryitem.html">Grocery</a></li>
+                    </ul>
+                </li>    
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="shoppingcart.html">My Cart</a></li>
+                <li><a href="Contactus.html">Contact us</a></li>
+                <li id="login"><a href="login.html">Login</a></li>
+                <li id="register"><a href="Register.html">Register</a></li>
+                <li id="logout"><a href="#">Logout</a></li>
+                
+            </ul>
+        </nav>
+
+        <!--Main content-->
+        <main>
+            
+            <!--Hidden element to show the message: "Saved successfully", when users presses save button-->
+            <div id="successful-save-message"><span class="fa fa-check-circle"></span>Changes saved successfully!</div>
+
+            <div id="my-account-wrapper">
+                <form action="" method="get">
+                    
+                    <center>
+                        <img src="images/default-user-image.png" alt="Default User Image" id="user-image">
+                        <a href="#" class="fa fa-edit" id="edit-image"></a>
+                        <!--Input type file, to store image. (Hidden)-->
+                        <input type="file" id="new-image" name="new-image" accept="image/*" hidden>
+                    </center>
+                    
+                    <label for="user-name">Name</label>
+                    <input type="text" id="user-name" value="Rahul Tiwari" readonly>
+
+                    <label for="user-email">Email Address</label>
+                    <input type="email" id="user-email" value="rahulbt2016@gmail.com" readonly>
+
+                    <label for="user-password">Password</label>
+                    <input type="password" id="user-password" value="abc#1234">
+
+                    <label for="user-confirm-password">Confirm Password</label>
+                    <input type="password" id="user-confirm-password" value="abc#1234">
+                    <span class="validation-error"></span>
+
+                    <label for="user-phone">Phone Number</label>
+                    <input type="text" id="user-phone" value="4379917639">
+
+                    <label for="user-address">Shipping Address</label>
+                    <textarea name="user-address" id="user-address" rows="5">1530 Albion Road,
+Etobicoke,
+Toronto ON,
+M9V-2J1</textarea>
+
+                    <button id="save-changes">Save</button>
+                </form>
+            </div>
+        </main>
+        
+        <!--Footer-->
+        <footer>
+                <div id = "footer-about-us">
+                    <img src="images/logo1.png" alt="TechnoShop logo">
+                    <p><span>ADDRESS:</span> 777 Albion Road, Etobicoke, <br> M9V 2J1, ON, Canada</p>
+                    <p><span>PHONE:</span> +1 437-991-7639</p>
+                    <p><span>EMAIL:</span> technoshop@studybuddies.com</p>
+                </div>
+
+                
+
+                <div id = "footer-navigation">
+                    <h4>Navigate:</h4>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="my-account.html">My Account</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="shoppingcart.html">My Cart</a></li>
+                        <li><a href="Contactus.html">Contact us</a></li>
+                        <li><a href="login.html">Login</a></li>
+                        <li><a href="Register.html">Register</a></li>
+                    </ul>
+                </div>
+
+                <div id = "footer-shop">
+                    <h4>Shop:</h4>
+                    <ul>
+                        <li><a href="clothes.html">Clothing</a></li>
+                        <li><a href="accessories.html">Accessories</a></li>
+                        <li><a href="homeappliances.html">Home Appliances</a></li>
+                        <li><a href="electronic-devices.html">Electronic Devices</a></li>
+                        <li><a href="Groceryitem.html">Grocery</a></li>
+                    </ul>
+                </div>
+
+                <div id = "footer-team-members">
+                    <h4>Team Members:</h4>
+                    <ul>
+                        <li>Mansi Patel (Team lead)</li>
+                        <li>Rahul Tiwari</li>
+                        <li>Raina Patel</li>
+                        <li>Raveena Katariya</li>
+                        <li>Rohan Patel</li>
+                    </ul>
+
+                    <h4>Follow us:</h4>
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                </div>
+                
+                <div id = "footer-copyright">
+                    Copyright &copy; 2021 Study Buddies 
+                </div>
+        </footer>
+    </body>
+</html>

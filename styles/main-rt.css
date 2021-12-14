@@ -1,0 +1,426 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+/*---------------------CSS for Electronic devices page------------------------------------------------*/
+
+/*Search Bar*/
+#search-input {
+    background-image: url('../images/search-icon.png');
+    background-size: 25px;
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 30%;
+    font-size: 16px;
+    padding: 15px 20px 12px 45px;
+    border: 1px solid #ddd;
+    margin: 12px 0;
+}
+
+/*Dialogue Box to display added to cart message*/
+#new-cart-item {
+    border: 1px solid lightgrey;
+    width: 60%;
+    margin: 3vh auto;
+    padding: 2vh 2vw;
+    display: none;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+}
+
+#new-cart-item div {
+
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 2.2vw;
+    font-weight: bold;
+}
+
+#new-cart-item div span {
+
+    color: green;
+}
+
+#new-cart-item p {
+
+    font-size: 1.4vw;
+}
+
+#category-title {
+    font-size: 1.15vw;
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#electronic-devices-wrapper {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    right: 0;    
+    background-color: white;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto 1fr auto;
+}
+
+#sub-header {
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+}
+
+#sub-header h1 {
+    font-size: 2.9vw;
+    margin: 0;
+    padding: 15px 100px;
+    color: white;
+    text-shadow: 5px 5px 10px #F7F8F8;
+}
+
+#nav-2 {
+    background-image: linear-gradient(to bottom, rgb(151, 142, 238), black);
+    position: sticky;
+    top: 0;
+}
+
+#nav-2 ul {
+    margin: 0;
+    padding: 1vh 0;
+    list-style-type: none;
+    display: flex;         
+    gap: 2vw;             
+    justify-content: space-evenly;      
+    flex-wrap: wrap;                    
+}
+
+
+
+#nav-2 ul li a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font-size: 1.3vw;
+}
+
+#nav-2 ul li a:hover {
+    color: gold;
+}
+
+main {
+    padding-left: 2vw;
+}
+
+.sub-category-title {
+    font-size: 2.2vw;
+    /*text-decoration: underline;*/
+    text-shadow: 0.1vw 0.1vw 1vw darkblue;
+    padding-bottom: 5vh;
+    text-align: center;
+}
+
+.sub-category {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 3vw;
+    padding-bottom: 10vh;
+    text-align: center;
+}
+
+.product-wrapper {
+    background: none;
+}
+
+.product-image {
+    margin: 0;
+    margin-bottom: 2vh ;
+}
+
+.phone-image {
+    height: 50vh;
+    width: 12vw;
+}
+
+.laptop-image, .tv-image {
+    height: 25vh;
+    width: 18vw;
+}
+
+.watch-image {
+    height: 30vh;
+    width: 13vw;
+}
+
+.speaker-image-rectangle {
+    height: 60vh;
+    width: 13vw;
+}
+
+.speaker-image-square {
+    height: 40vh;
+    width: 18vw;
+    margin-top: 22vh;
+}
+
+.headphone-image {
+    height: 40vh;
+    width: 13vw;
+}
+
+.accessory-image {
+    height: 40vh;
+    width: 15vw;
+}
+
+.product-name {
+    text-align: center;
+    height: 8vh;
+    margin:0;
+    font-size: 1.4vw;
+}
+
+.product-cost {
+    text-align: center;
+    font-weight: bold;
+    margin: 2vh 0;
+    font-size: 1.5vw;
+    margin-bottom: 1vh;
+}
+
+.add-to-cart {
+    background-color: blue;
+    font-size: 1.5vw;
+    text-decoration: none;
+    color: white;
+    border: 2px solid black;
+}
+
+hr{
+    margin-right: 2vw;
+    border-top: 0.5vh solid black;
+    box-shadow: 0.3vh 0.3vh 3vh darkblue;
+}
+
+#left hr {
+    margin-left: 2vw;
+    color: white;
+    border-top: 0.5vh solid white;
+    box-shadow: 0.3vh 0.3vh 3vh gold;
+}
+
+/*-------------Media queries for making website responsive (Electronic Devices page)----------------------------------------*/
+@media  screen and (max-width: 500px){
+    
+    .product-name {
+        text-align: center;
+    }
+
+    #nav-2 {
+        position: unset;
+    }
+
+    .sub-category {
+        display: flex;
+        flex-direction: column;
+        gap: 3vw;
+        padding-bottom: 10vh;
+        text-align: center;
+    }
+
+    .phone-image {
+        height: auto;
+        width: 12vw;
+    }
+    
+    .laptop-image, .tv-image {
+        height: auto;
+        width: 18vw;
+    }
+    
+    .watch-image {
+        height: auto;
+        width: 13vw;
+    }
+    
+    .speaker-image-rectangle {
+        height: auto;
+        width: 13vw;
+    }
+    
+    .speaker-image-square {
+        height: auto;
+        width: 18vw;
+        margin-top: 22vh;
+    }
+    
+    .headphone-image {
+        height: auto;
+        width: 13vw;
+    }
+    
+    .accessory-image {
+        height: auto;
+        width: 15vw;
+    }
+}
+
+
+/* -------------------CSS for Login page------------------------------------------------------*/
+
+
+#login-wrapper {
+    width: 30%;
+    margin: 6vh auto;
+    padding: 2vh 3vw;
+    background-color: lavender;
+    
+}
+
+#login-wrapper h2 {
+    text-align: center;
+    color: orange;
+    text-decoration: underline;
+    font-size: 2vw;
+}
+
+#login-wrapper form {
+    display: flex;
+    flex-direction: column;
+}
+
+#login-wrapper form label {
+    margin: 2vh 0;
+    font-size: 1.3vw;
+    font-weight: bold;
+}
+
+#login-wrapper form input {
+    padding: 2vh 2vw;
+    font-size: 1.2vw;
+    margin-bottom: 2vh;
+}
+
+#login-wrapper form button {
+    padding: 2vh 2vw;
+    font-size: 1.2vw;
+    margin: 4vh 0;
+    border: none;
+    background-color: #faf287;
+}
+
+#login-wrapper form button:hover {
+
+    background-color: orange;
+}
+
+.validation-error {
+    color: red;
+    font-size: small;
+}
+
+/*-------------Media queries for making website responsive (Login page)----------------------------------------*/
+@media  screen and (max-width: 500px) {
+
+    #login-wrapper {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background: none;
+    }
+
+}
+
+
+/* -------------------CSS for My Account page------------------------------------------------------*/
+
+#successful-save-message{
+    
+    background-color: lavender;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    font-size: 2vw;
+    text-align: center;
+    padding: 2vh 0;
+    display: none;
+}
+
+#successful-save-message span {
+    color: green;
+}
+
+#my-account-wrapper{
+
+    width: 50%;
+    margin: 6vh auto;
+    padding: 2vh 3vw;
+    background-color: lavender;
+}
+
+#my-account-wrapper img {
+
+    height: 200px;
+    width: 200px;
+    margin-top: 5vh;
+}
+
+#edit-image {
+    font-size: 15pt;
+}
+
+#my-account-wrapper form {
+    display: flex;
+    flex-direction: column;
+}
+
+#my-account-wrapper form label {
+    margin: 2vh 0;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+#my-account-wrapper form input {
+    padding: 2vh 2vw;
+    font-size: 1.2vw;
+    margin-bottom: 4vh;
+}
+
+
+#my-account-wrapper form textarea {
+    font-size: 1.2vw;
+    padding: 2vh 2vw;
+}
+
+#my-account-wrapper form button {
+    align-self: center;
+    width: 40%;
+    padding: 2vh 2vw;
+    font-size: 1.2vw;
+    margin: 4vh 0;
+    border: none;
+    background-color: #faf287;
+}
+
+#my-account-wrapper form button:hover {
+
+    background-color: orange;
+}
+
+input:read-only {
+    background-color: lightgray;
+}
+
+/*-------------Media queries for making website responsive (My account page)----------------------------------------*/
+@media  screen and (max-width: 500px) {
+
+    #my-account-wrapper {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background: none;
+    }
+
+}

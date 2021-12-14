@@ -1,0 +1,492 @@
+
+#Grocery{                        /*This is to give styles to grocery category*/
+    margin-top: 25PX;
+    margin-bottom: 20PX;
+    text-align: center;
+    font-family: arial;
+    display: flex;
+    width: auto;
+}
+#electronic-items{                        /*This is to give styles to electronic-items category*/
+margin-top: 25PX;
+    margin-bottom: 20PX;
+    text-align: center;
+    font-family: arial;
+    display: flex;
+    width: auto;
+}
+#Home-Appliances{               /*This is to give styles to home appliances category*/
+margin-top: 25PX;
+    margin-bottom: 20PX;
+    text-align: center;
+    font-family: arial;
+    display: flex;
+    width: auto;
+}
+#Accessories{                           /*This is to give styles to accessories category*/
+margin-top: 25PX;
+margin-bottom: 20PX;
+text-align: center;
+font-family: arial;
+display: flex;
+width: auto;
+}
+#Clothing{                   /*This is to give styles to clothing category*/
+margin-top: 25PX;
+margin-bottom: 20PX;
+text-align: center;
+font-family: arial;
+display: flex;
+width: auto;
+}
+h2{
+font-size: 30px;
+color:darkblue;
+text-align: center;
+box-shadow: 2px blue;
+}
+
+.coupon {
+border: 5px dotted #bbb;
+width: 25%
+
+}
+.aside {                         
+background-color: lightblue;
+margin-top: 30px;
+
+}
+.aside ul{
+margin: 0;
+padding: 1vh 0;
+list-style-type: none;
+display: flex;  
+gap: 2vw;             
+justify-content: space-evenly;      
+flex-wrap: wrap;  
+height: 40px;
+font-size: 25px;
+font-weight: bold;
+}
+.aside h1{
+margin: 0;
+padding-left: 50px;
+font-size: 4vw;
+color: white;
+font-weight: bold;
+text-shadow: 2px 2px 2px white;
+background-color: black;
+}
+.aside ul li a {
+font-weight: bold;
+color: black;
+text-decoration: none;
+font-size: 1.3vw;
+}
+
+.aside ul li a:hover {
+color: orangered;
+}
+
+h3{
+  font-size: 30px;
+  margin-top: 20px;
+  color: blue;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+}
+#demo{                      /*this is for all the code that is given in js*/
+    background-color: blue;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+#demo1{
+background-color: blue;
+font-size: 20px;
+text-decoration: none;
+color: white;
+}
+#demo2{
+background-color: blue;
+font-size: 1.5vw;
+text-decoration: none;
+color: white;
+}
+#demo3{
+background-color: blue;
+font-size: 1.5vw;
+text-decoration: none;
+color: white;
+}
+#demo4{
+background-color: blue;
+font-size: 1.5vw;
+text-decoration: none;
+color: white;
+}
+#demo5{
+background-color: blue;
+font-size: 1.5vw;
+text-decoration: none;
+color: white;
+}
+#demo6{
+background-color: blue;
+font-size: 1.5vw;
+text-decoration: none;
+color: white;
+}
+#demo7{
+background-color: blue;
+font-size: 1.5vw;
+text-decoration: none;
+color: white;
+}
+#demo8{
+background-color: blue;
+font-size: 1.5vw;
+text-decoration: none;
+color: white;
+}
+#demo9{
+background-color: blue;
+font-size: 1.5vw;
+text-decoration: none;
+color: white;
+}
+#demo10{
+background-color: blue;
+font-size: 1.5vw;
+text-decoration: none;
+color: white;
+}
+#demo11{
+background-color: blue;
+font-size: 1.5vw;
+text-decoration: none;
+color: white;
+}
+#demo12{
+background-color: blue;
+font-size: 1.5vw;
+text-decoration: none;
+color: white;
+}
+#demo13{
+background-color: blue;
+font-size: 1.5vw;
+text-decoration: none;
+color: white;
+}
+#demo14{
+background-color: blue;
+font-size: 1.5vw;
+text-decoration: none;
+color: white;
+}
+#demo15{
+background-color: blue;
+font-size: 1.5vw;
+text-decoration: none;
+color: white;
+}
+#demo16{
+background-color: blue;
+font-size: 1.5vw;
+text-decoration: none;
+color: white;
+}
+#demo17{
+background-color: blue;
+font-size: 1.5vw;
+text-decoration: none;
+color: white;
+}
+#demo18{
+background-color: blue;
+font-size: 1.5vw;
+text-decoration: none;
+color: white;
+}
+#demo19{
+background-color: blue;
+font-size: 1.5vw;
+text-decoration: none;
+color: white;
+}
+
+#Rohan{
+  width: 100%;
+  font-size: 2vw;
+  height: 50px;
+}
+.container {
+padding: 2px 16px;
+background-color: #f1f1f1;
+background-color: white;
+}
+.container h2{
+  color: black;
+}
+.promo {
+background: #ccc;
+padding: 3px;
+}
+
+.expire {
+color: red;
+}
+
+
+/*this is to make page responsible*/
+
+@media screen and (max-width: 1100px){
+
+#wrapper{
+    width: 100%;
+    border: none;
+    box-shadow: none;
+    display: flex;              
+    flex-direction: column;
+}
+
+.aside {
+    margin-top: 30px;
+    padding: 0;
+    width: 100%;
+}
+
+.aside ul{
+
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;       
+    flex-wrap: wrap;  
+    align-items: center;
+
+}
+.aside h1{
+    margin: 0;
+    padding-left: 50px;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px white;
+    background-color: black;
+}
+.aside ul li a {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.aside ul li a:hover {
+    color: orangered;
+}
+main{
+    
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+}
+#Grocery{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#electronic-items{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#Home-Appliances{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#Accessories{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#Clothing{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#demo{
+    background-color: blue;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+#demo1{
+background-color: blue;
+font-size: 20px;
+text-decoration: none;
+color: white;
+}
+#demo2{
+background-color: blue;
+font-size: 20px;
+text-decoration: none;
+color: white;
+}
+#demo3{
+background-color: blue;
+font-size: 20px;
+text-decoration: none;
+color: white;
+}
+#demo4{
+background-color: blue;
+font-size: 20px;
+text-decoration: none;
+color: white;
+}
+#demo5{
+background-color: blue;
+font-size: 20px;
+text-decoration: none;
+color: white;
+}
+#demo6{
+background-color: blue;
+font-size: 20px;
+text-decoration: none;
+color: white;
+}
+#demo7{
+background-color: blue;
+font-size: 20px;
+text-decoration: none;
+color: white;
+}
+#demo8{
+background-color: blue;
+font-size: 20px;
+text-decoration: none;
+color: white;
+}
+#demo9{
+background-color: blue;
+font-size: 20px;
+text-decoration: none;
+color: white;
+}
+#demo10{
+background-color: blue;
+font-size: 20px;
+text-decoration: none;
+color: white;
+}
+#demo11{
+background-color: blue;
+font-size: 20px;
+text-decoration: none;
+color: white;
+}
+#demo12{
+background-color: blue;
+font-size: 20px;
+text-decoration: none;
+color: white;
+}
+#demo13{
+background-color: blue;
+font-size: 20px;
+text-decoration: none;
+color: white;
+}
+#demo14{
+background-color: blue;
+font-size: 20px;
+text-decoration: none;
+color: white;
+}
+#demo15{
+background-color: blue;
+font-size: 20px;
+text-decoration: none;
+color: white;
+}
+#demo16{
+background-color: blue;
+font-size: 20px;
+text-decoration: none;
+color: white;
+}
+#demo17{
+background-color: blue;
+font-size: 20px;
+text-decoration: none;
+color: white;
+}
+#demo18{
+background-color: blue;
+font-size: 20px;
+text-decoration: none;
+color: white;
+}
+#demo19{
+background-color: blue;
+font-size: 20px;
+text-decoration: none;
+color: white;
+}
+
+
+#Rohan{
+  width: 100%;
+  font-size: 30px;
+  height: 50px;
+}
+
+.main{
+    margin-top: 25PX;
+    margin-bottom: 20PX;
+    text-align: center;
+    font-family: arial;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+
+.coupon {
+border: 5px dotted #bbb;
+width: 100%;
+}
+
+h3{
+  font-size: 30px;
+  margin-top: 20px;
+  color: blue;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+}
+
+.container {
+padding: 2px 16px;
+
+background-color: white;
+}
+
+.promo {
+background: #ccc;
+padding: 3px;
+}
+
+.expire {
+color: red;
+}
+
+}

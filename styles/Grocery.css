@@ -1,0 +1,217 @@
+
+.aside {                                        /*this is for the navigation bar*/
+    background-color: lightblue;
+    
+}
+.aside ul{
+    margin: 0;
+    padding: 1vh 0;
+    list-style-type: none;
+    display: flex;  
+ 
+    gap: 2vw;             
+    justify-content: space-evenly;      
+    flex-wrap: wrap;  
+    height: 40px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.aside h1{
+    margin: 0;
+    padding-left: 50px;
+    font-size: 4vw;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px white;
+    background-color: black;
+}
+.aside ul li a {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    font-size: 1.3vw;
+}
+
+.aside ul li a:hover {
+    color: orangered;
+}
+.card {                              /*this is for the card div */
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    display: flex;
+    width: auto;
+  }
+   h2{                                       /*this is for the h2 means title*/
+       margin-top: 25px;
+    font-size: 35px;
+        color:darkblue;
+        text-align: center;
+        box-shadow: 2px blue;
+        margin-bottom: 25px;
+        font-weight: bold;
+       
+   }
+
+    button {                                /*this is for the add to cart button*/
+        border: none;
+        outline: 0;
+        padding: 12px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width:auto;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    button :hover{
+        opacity: 0.7;
+    }
+    .span {                            /*this is for the span class*/
+        float: right;
+    }
+    .shopping-cart {
+        display: inline-block;
+        background: url('https://webdevtrick.com/wp-content/uploads/cart.png') no-repeat 0 0;
+        width: 24px;
+        height: 24px;
+        margin: 0 10px 0 0;
+    }
+     
+   
+.item{                            /*this is for the item div*/
+width: 25%;
+
+}
+
+.item h4{                                /*this to give font size*/
+    font-size: 30px;
+}
+
+  .price {
+    color: grey;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .card button {                               /*css for the card button*/
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width:auto;
+    font-size: 18px;
+  }
+  .card button:hover {
+    opacity: 0.7;
+  }  
+/* to make it responsive */
+  @media screen and (max-width: 1100px){
+    
+    #wrapper{
+        width: auto;
+        border: none;
+        box-shadow: none;
+        display: flex;              
+        flex-direction: column;
+    }
+ 
+    .aside {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .item #technoshop-logo {
+    
+            height: 20%;
+            width: 20%;
+            align-self: center;
+        
+        
+    }
+    
+    .aside ul{
+    
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-direction: column;       
+        flex-wrap: wrap;  
+        align-items: center;
+    
+    }
+    .aside h1{
+        margin: 0;
+        padding-left: 50px;
+        font-size: 50px;
+        color: white;
+        font-weight: bold;
+        text-shadow: 2px 2px 2px white;
+        background-color: black;
+    }
+    .aside ul li a {
+        font-weight: bold;
+        color: black;
+        text-decoration: none;
+        font-size: 25px;
+    }
+    
+    .aside ul li a:hover {
+        color: orangered;
+    }
+    main{
+        
+        width: auto;
+        
+        display: flex;
+        flex-direction: column;
+    }
+    .item{
+        width: auto;
+        height: 20%;
+    }
+    
+    .card {
+        width: 100%;
+        font-family: arial;
+        display: flex;
+        flex-direction: column;
+        
+      }
+       h2{
+        font-size: 30px;
+        color:darkblue;
+        text-align: center;
+        box-shadow: 2px blue;
+    }
+  
+      .price {
+        color: grey;
+        font-size: 22px;
+        width: 100%;
+      }
+      
+      .card button {
+        border: none;
+        outline: 0;
+        padding: 12px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width:100%;
+        font-size: 18px;
+      }
+      .card button:hover {
+        opacity: 0.7;
+      }  
+    
+}

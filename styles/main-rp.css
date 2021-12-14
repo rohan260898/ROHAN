@@ -1,0 +1,243 @@
+/*CSS for Women, Men and Kids Accesories page*/
+
+#container1{
+    display: flex;
+    flex-direction: column;
+    width: 100;
+    height: 100;
+}
+section p{
+
+    text-align: center;
+}
+section h1{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.w2{
+    width: 100%;
+}
+
+.imgw2{
+    margin: 10px;
+    border: 2px solid #ccc;
+    float: left;
+    width: 18%;
+    height: 25%;
+    padding: 32px;
+}
+.imgw2 img{
+    margin: 10px;
+    width: 75%;
+    height: 50%;
+    padding: 20px;
+}
+.btn{
+    position: relative;
+    margin-left: 40px;
+    background-color: rgb(243, 102, 149);
+    border: none;
+    border-radius: 12px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+}
+.imgw2 p{
+    text-align: center;
+}
+hr{
+    height: 3px;
+    background-color: black;
+}
+/*Changes when screen size is reduced*/
+@media  screen and (max-width: 600px)
+{
+    #container1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .w1{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .w2
+    {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .imgw2 img
+    {
+        position: relative;
+        width:100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .imgw2
+    {   
+        position: relative;
+        width:100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: flex-start;
+        
+        padding-bottom: 10%;
+        
+    }
+    .btn
+    {
+        width: 40%;
+    }
+    
+}
+@media  screen and (max-width: 700px)
+{
+    #container1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .w1{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .w2
+    {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .imgw2 img
+    {
+        position: relative;
+        width:100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .imgw2
+    {   
+        position: relative;
+        width:100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: flex-start;
+        
+        padding-bottom: 10%;
+        
+    }
+    .btn
+    {
+        width: 40%;
+    }
+    
+}
+
+@media  screen and (max-width: 800px)
+{
+    #container1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .w1{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .w2
+    {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .imgw2 img
+    {
+        position: relative;
+        width:100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .imgw2
+    {   
+        position: relative;
+        width:100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: flex-start;
+        
+        padding-bottom: 10%;
+        
+    }
+    .btn
+    {
+        width: 40%;
+    }
+    
+}
+
+
+/*CSS for Acessories Page*/
+
+section p{
+    text-align: center;
+}
+section h2{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.w1{
+    background-color: blanchedalmond;
+}
+#aimg{
+    width: 70%;
+    margin-left: 200px;
+    height: 50%;
+    border: 2px solid black;
+}
+hr{
+    height: 3px;
+    background-color: black;
+}
+/*Changes with the Screen size*/
+@media  screen and (max-width: 600px)
+{
+    #aimg{
+        width: 100%;
+        margin: 0px;
+    }
+    .w1{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: auto;
+    }
+ }

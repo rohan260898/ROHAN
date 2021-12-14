@@ -1,0 +1,278 @@
+/* Css for shopping cart page*/
+.cs{
+    border: 2px solid;
+    background-color: #fdfcc2;
+}
+.container{
+        
+      margin: 0 auto;
+  }
+  
+  .container > h1{
+      
+      justify-content: center;
+      align-items: center;
+      margin-left: 450px;
+      padding: 20px 0;
+  }
+  .cart{
+      
+      margin-left: 300px;
+  }
+
+ .cartList img{
+    
+    justify-content: center;
+    align-items: center;
+    width: 275px;
+    height: 200px;
+    object-fit: cover;
+ }
+.cartList{
+    display: flex;
+      width: 80%;
+      height: 200px;
+      border: 1px solid black;
+      margin-bottom: 20px;
+}
+.cartList:hover{
+    border: none;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    transform: scale(1.01);
+}
+
+  .products{
+      flex: 0.75;
+  }
+
+.info{
+
+    padding: 20px;
+    width: 100%;
+    position: relative;
+}
+.name,.price{
+    
+    margin-bottom: 10px;
+}
+.r button{
+    
+   
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 25px;
+    background-color: green;
+    color: white;
+    border-radius: 5px; 
+}
+.r button:hover{
+    background-color: white;
+      color: green;
+      font-weight: 600;
+      border: 1px solid green;
+}
+.product1-quantity{
+    width:30%
+} 
+
+.fa{
+    margin-right: 5px;
+}
+.cart-total{
+    flex: 0.25;
+    width: 78%;
+    padding: 10px;
+    height: 230px;
+    
+}
+.cart-total p{
+    padding: 20px 0;
+    margin-left: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.abc{
+    margin-right: 200px;
+}
+.cart-total a{
+    color: white;
+}
+.b{
+    
+    margin-left: 500px;
+    background-color: tomato;
+     height: 50px;
+    width: 150px;
+}
+.b:hover{
+    background-color: red;
+}
+/*css for contact us page*/
+
+  .container{
+      border: 2px solid;
+      background-color: #fdfcc2;
+  }
+  .cs
+{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ci{
+    max-width: 500px;
+    line-height: 65px;
+    padding-left: 50px;
+    font-size: 18px;
+}
+.cf{
+    max-width: 700px;
+    margin-right: 50px;
+}
+.ci, .cf{
+    flex: 1;
+}
+.cf h2{
+    color:black;
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.cf .text-box{
+    background: rgb(214, 211, 211);
+    color: black;
+    border: none;
+    width: calc(50% - 10px);
+    height: 50px;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0,0.1);
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+.cf .text-box:first-child{
+    margin-right: 15px;
+}
+.cf textarea{
+    background: rgb(214, 211, 211);;
+    color: black;
+    border: none;
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    min-height: 200px;
+    max-height: 400px;
+    resize: vertical;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0,0.1);
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+.send{
+    float: right;
+    background: #2E94E3;
+    color: white;
+    border: none;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    transition-property: background;
+}
+.cf .send-btn{
+    float: right;
+    background: #2E94E3;
+    color: white;
+    border: none;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    transition-property: background;
+}
+.send:hover{
+    background: #0582E3;
+}
+.cf .send-btn:hover
+{
+    background: #0582E3;
+}
+span{
+    color: red;
+}
+
+@media screen and (max-width:600px) {
+    .cartList{
+        margin:0;
+        width: 50%;
+    }
+.cs{
+        flex-direction: column;
+ }
+
+
+.ci , .cf{
+    margin: 30px 50px;
+}
+.cf h2{
+    font-size: 30px;
+}
+.cf .text-box{
+    width: 100%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    
+    flex-wrap: wrap;
+}
+.container h1{
+    flex-direction: column;
+}
+.cart{
+    
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+.cartList img{
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 100px;
+    object-fit: cover;
+}
+.r{
+    flex-direction: column;
+    
+}
+.product1-quantity{
+    width:30%
+}
+.cartList{
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.info{
+    padding: 10px;
+}
+    
+
+}

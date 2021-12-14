@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--TechnoShop logo in favicon-->
+        <link rel="shortcut icon" href="images/logo3.png"/>
+        <!--Font awesome Icons-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <title>TechnoShop | Electronic Devices</title>
+        <!--CSS files-->
+        <link rel="stylesheet" href="styles/main-rt.css">
+        <link rel="stylesheet" href="styles/header-footer-nav.css">
+        <!--Java Script Files-->
+        <script src="js/navigation.js"></script>
+        <script src="js/electronicDevices.js"></script>
+    </head>
+    <body>
+        <!--Wrapper of the page-->
+        <div id="electronic-devices-wrapper">
+
+            <!--Consistent Header-->
+            <header>
+                <img id="technoshop-logo" src="images/logo3.png" alt="TechnoShop logo">
+                <div>
+                    <h1>TechnoShop</h1>
+                    <p id ="tag-line">Shopping at its best</p>
+                </div>
+                <img id="header-gif"  src="images/logo.gif" alt="Happy Shopping">    
+            </header>
+
+            <!--Consistent Navigation Bar-->
+            <nav>
+                <ul>       
+                    <li id="logged-in-user"></li>     <!--Hidden element, which only appears when user logged-in -->  
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="my-account.html">My account</a></li>
+                    <li>
+                        <a href="#">Shop</a>
+                        <ul class="drop-down">
+                            <li><a href="clothes.html">Clothing</a></li>
+                            <li><a href="accessories.html">Accessories</a></li>
+                            <li><a href="homeappliances.html">Home Appliances</a></li>
+                            <li><a href="electronic-devices.html">Electronic Devices</a></li>
+                            <li><a href="Groceryitem.html">Grocery</a></li>
+                        </ul>
+                    </li>    
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="shoppingcart.html">My Cart</a></li>
+                    <li><a href="Contactus.html">Contact us</a></li>
+                    <li id="login"><a href="login.html">Login</a></li>
+                    <li id="register"><a href="Register.html">Register</a></li>
+                    <li id="logout"><a href="#">Logout</a></li>
+                    
+                </ul>
+            </nav>
+
+            <!--Sub-header-->
+            <div id="sub-header">
+                <h1>Electronic Devices</h1>
+            </div>   
+            
+            <!--Secondaey navigation bar-->
+            <nav id = "nav-2">
+                <ul>
+                    <li><a href="#smart-phone">Smart Phone</a></li>
+                    <li><a href="#laptop">Laptop</a></li>
+                    <li><a href="#smart-watch">Smart Watch</a></li>
+                    <li><a href="#television">Television</a></li>
+                    <li><a href="#speaker">Speaker</a></li>
+                    <li><a href="#headphone">Headphone</a></li>
+                    <li><a href="#electronic-accessories">Electronic Accessories</a></li>
+                </ul>
+            </nav>
+
+            <!--Main content-->
+            <main>
+                <!--Search bar-->
+                <input type="text" id="search-input" placeholder="Search for products...">
+
+                <!--Hidden element to display item added in cart, when add to cart button clicked-->
+                <div id="new-cart-item">
+                    <img src="" class="" alt="Product Image">
+                    <div id="added-to-cart-message"><span class="fa fa-check-circle"></span>Added to cart</div>
+                    <p></p>
+                </div>
+                
+                <!--Smart Phones-->
+                <h2 class="sub-category-title" id="smart-phone">Smart Phone</h2>
+                <div class="sub-category">
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Smart Phone/phone-1.jpg" class="phone-image product-image" alt="Samsung Galaxy A10e 32GB Unlocked Phone - Black">
+                        <p class="product-name">Samsung Galaxy A10e 32GB Unlocked Phone - Black</p>
+                        <p class="product-cost">$199</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div>
+                    
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Smart Phone/phone-2.jpg" class="phone-image product-image" alt="OnePlus 8 Glacial Green​ 8GB+128GB US IN2015">
+                        <p class="product-name">OnePlus 8 Glacial Green​ 8GB+128GB US IN2015</p>
+                        <p class="product-cost">$488</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div>  
+    
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Smart Phone/phone-3.jpg" class="phone-image product-image" alt="Motorola Moto G8 Model XT2041-1 (64GB SD+Case Bundle) Blue">
+                        <p class="product-name">Motorola Moto G8 Model XT2041-1 (64GB SD+Case Bundle) Blue</p>
+                        <p class="product-cost">$235.96</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div>  
+    
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Smart Phone/phone-4.jpg" class="phone-image product-image" alt="Apple iPhone 11 Pro Max, 64GB, Space Gray">
+                        <p class="product-name">Apple iPhone 11 Pro Max, 64GB, Space Gray</p>
+                        <p class="product-cost">$959.99</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div>  
+
+
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Smart Phone/phone-5.jpg" class="phone-image product-image" 
+                            alt="Samsung Galaxy A12 SM-A125F Dual-SIM">
+                        <p class="product-name">Samsung Galaxy A12 SM-A125F Dual-SIM</p>
+                        <p class="product-cost">$249.99</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div>  
+
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Smart Phone/phone-6.jpg" class="phone-image product-image" 
+                            alt="OnePlus Nord N10 5G (128GB, 6GB)">
+                        <p class="product-name">OnePlus Nord N10 5G (128GB, 6GB)</p>
+                        <p class="product-cost">$342.35</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div>  
+
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Smart Phone/phone-7.jpg" class="phone-image product-image" 
+                            alt="Samsung Galaxy A21S (64GB, 4GB)">
+                        <p class="product-name">Samsung Galaxy A21S (64GB, 4GB)</p>
+                        <p class="product-cost">$299.99</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div>  
+
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Smart Phone/phone-8.jpg" class="phone-image product-image" 
+                            alt="Apple iPhone 8, GSM Unlocked, 64GB - Space Gray">
+                        <p class="product-name">Apple iPhone 8, GSM Unlocked, 64GB - Space Gray</p>
+                        <p class="product-cost">$279.98</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div>  
+
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Smart Phone/phone-9.jpg" class="phone-image product-image" 
+                            alt="Samsung Galaxy S10">
+                        <p class="product-name">Samsung Galaxy S10</p>
+                        <p class="product-cost">$435.99</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div>  
+
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Smart Phone/phone-10.jpg" class="phone-image product-image" 
+                            alt="Apple iPhone 8, Fully Unlocked, 64GB - Gold">
+                        <p class="product-name">Apple iPhone 8, Fully Unlocked, 64GB - Gold</p>
+                        <p class="product-cost">$278.98</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div>  
+
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Smart Phone/phone-11.jpg" class="phone-image product-image" 
+                            alt="Google Pixel 4a with 5G - Android Phone">
+                        <p class="product-name">Google Pixel 4a with 5G - Android Phone</p>
+                        <p class="product-cost">$804.44</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div>  
+
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Smart Phone/phone-12.jpg" class="phone-image product-image" 
+                            alt="Moto G 5G 2021 (128GB, 6GB)">
+                        <p class="product-name">Moto G 5G 2021 (128GB, 6GB)</p>
+                        <p class="product-cost">$313.93</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div>  
+
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Smart Phone/phone-13.jpg" class="phone-image product-image" 
+                            alt="Samsung Galaxy S20 Fan Edition">
+                        <p class="product-name">Samsung Galaxy S20 Fan Edition</p>
+                        <p class="product-cost">$949.99</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div>  
+                        
+                        
+                </div>
+
+                <hr>
+                
+                <!--Laptops-->
+                <h2 class="sub-category-title" id="laptop">Laptop</h2>
+                <div class="sub-category">
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Laptop/laptop-1.jpg" class="laptop-image product-image" alt="Lenovo Chromebook Flex 5 13' Laptop">
+                        <p class="product-name">Lenovo Chromebook Flex 5 13" Laptop</p>
+                        <p class="product-cost">$508.68</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div>  
+    
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Laptop/laptop-2.jpg" class="laptop-image product-image" alt="ASUS VivoBook 15 F515 Thin and Light Laptop">
+                        <p class="product-name">ASUS VivoBook 15 F515 Thin and Light Laptop</p>
+                        <p class="product-cost">$518.69</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div> 
+    
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Laptop/laptop-3.jpg" class="laptop-image product-image" alt="HP Stream 14-Inch Laptop">
+                        <p class="product-name">HP Stream 14-Inch Laptop</p>
+                        <p class="product-cost">$389</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div>
+                    
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Laptop/laptop-4.jpg" class="laptop-image product-image" 
+                            alt="Apple MacBook Air with Apple M1 Chip ">
+                        <p class="product-name">Apple MacBook Air with Apple M1 Chip </p>
+                        <p class="product-cost">$1,209.99</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div>
+
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Laptop/laptop-5.jpg" class="laptop-image product-image" 
+                            alt="Acer Predator Helios 300 Gaming Laptop">
+                        <p class="product-name">Acer Predator Helios 300 Gaming Laptop</p>
+                        <p class="product-cost">$1,662.29</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div>
+
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Laptop/laptop-6.jpg" class="laptop-image product-image" 
+                            alt="Razer Blade 15 Base Gaming Laptop">
+                        <p class="product-name">Razer Blade 15 Base Gaming Laptop</p>
+                        <p class="product-cost">$1,624.99</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div>
+
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Laptop/laptop-7.jpg" class="laptop-image product-image" 
+                            alt=Acer Aspire 5 Slim">
+                        <p class="product-name">Acer Aspire 5 Slim</p>
+                        <p class="product-cost">$769.33</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div>
+
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Laptop/laptop-8.jpg" class="laptop-image product-image" 
+                            alt="HP Laptop PC 15 Intel Gold">
+                        <p class="product-name">HP Laptop PC 15 Intel Gold</p>
+                        <p class="product-cost">$479.72</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div>
+
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Laptop/laptop-9.jpg" class="laptop-image product-image" 
+                            alt="ROG Zephyrus G14 (2020) Ultra Slim Gaming Laptop">
+                        <p class="product-name">ROG Zephyrus G14 (2020) Ultra Slim Gaming Laptop</p>
+                        <p class="product-cost">$2,499.00</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div>
+                </div>
+                    
+                <hr>
+
+                <!--Smart Watches-->
+                <h2 class="sub-category-title"  id="smart-watch">Smart Watch</h2>
+                <div class="sub-category">
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Smart Watch/watch-1.jpg" class="product-image watch-image" alt="Tranya Smart Watch, 1.69' Full Touch Color Screen">
+                        <p class="product-name">Tranya Smart Watch, 1.69" Full Touch Color Screen</p>
+                        <p class="product-cost">$59.99</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div> 
+    
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Smart Watch/watch-2.jpg" class="product-image watch-image" alt="Fitbit Versa 2 Health & Fitness Smartwatch">
+                        <p class="product-name">Fitbit Versa 2 Health & Fitness Smartwatch</p>
+                        <p class="product-cost">$229.95</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div> 
+    
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Smart Watch/watch-3.jpg" class="product-image watch-image" alt="SAMSUNG Galaxy Watch Active">
+                        <p class="product-name">SAMSUNG Galaxy Watch Active</p>
+                        <p class="product-cost">$232.04</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div> 
+
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Smart Watch/watch-4.jpg" class="product-image watch-image" 
+                            alt="Fitbit Versa 3 Health & Fitness Smartwatch">
+                        <p class="product-name">Fitbit Versa 3 Health & Fitness Smartwatch</p>
+                        <p class="product-cost">$299.95</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div> 
+
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Smart Watch/watch-5.jpg" class="product-image watch-image" 
+                            alt="Smart Watch, UMIDIGI Uwatch 2S">
+                        <p class="product-name">Smart Watch, UMIDIGI Uwatch 2S</p>
+                        <p class="product-cost">$48.99</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div> 
+
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Smart Watch/watch-6.jpg" class="product-image watch-image" 
+                            alt="Apple Watch Series 3">
+                        <p class="product-name">Apple Watch Series 3</p>
+                        <p class="product-cost">$249.99</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div> 
+
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Smart Watch/watch-7.jpg" class="product-image watch-image" 
+                            alt="Garmin Instinct Rugged Outdoor Watch">
+                        <p class="product-name">Garmin Instinct Rugged Outdoor Watch</p>
+                        <p class="product-cost">$209.00</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div> 
+                </div>
+                    
+                <hr>
+
+                <!--Televisions-->
+                <h2 class="sub-category-title" id="television">Television</h2>
+                <div class="sub-category">
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Television/tv-1.jpg" class="product-image tv-image" alt="SANSUI ES43S1A 4'' Television 43 inch UHD">
+                        <p class="product-name">SANSUI ES43S1A 43" Television 43 inch UHD</p>
+                        <p class="product-cost">$429.97</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div> 
+    
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Television/tv-2.jpg" class="product-image tv-image" alt="Caixun EC43S1A, 43 inch UHD HDR Smart Android TV ">
+                        <p class="product-name">Caixun EC43S1A, 43 inch UHD HDR Smart Android TV </p>
+                        <p class="product-cost">$439.99</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div> 
+    
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Television/tv-3.jpg" class="product-image tv-image" alt="Sony X80J 55 inch 4K Ultra HD HDR LED Smart Google TV ">
+                        <p class="product-name">Sony X80J 55 inch 4K Ultra HD HDR LED Smart Google TV </p>
+                        <p class="product-cost">$1048</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div> 
+
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Television/tv-4.jpg" class="product-image tv-image" 
+                            alt="Samsung - 55 AU8000 LED 4K Ultra HD HDR Smart TV">
+                        <p class="product-name">Samsung - 55" AU8000 LED 4K Ultra HD HDR Smart TV</p>
+                        <p class="product-cost">$998.00</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div> 
+
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Television/tv-5.jpg" class="product-image tv-image" 
+                            alt="TCL 55 Class 4-Series 4K UHD HDR Smart Android TV">
+                        <p class="product-name">TCL 55" Class 4-Series 4K UHD HDR Smart Android TV</p>
+                        <p class="product-cost">$569.99</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div> 
+
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Television/tv-6.jpg" class="product-image tv-image" 
+                            alt="Sony X90J 55 inch BRAVIA XR Full Array LED 4K Ultra HD HDR Smart Google TV">
+                        <p class="product-name">Sony X90J 55 inch BRAVIA XR 4K Ultra HD HDR Smart Google TV</p>
+                        <p class="product-cost">$1,498.00</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div> 
+
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Television/tv-7.jpg" class="product-image tv-image" 
+                            alt="LG OLED55C1 55 4K Smart 120Hz OLED TV">
+                        <p class="product-name">LG OLED55C1 55" 4K Smart 120Hz OLED TV</p>
+                        <p class="product-cost">$1,897.99</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div> 
+
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Television/tv-8.jpg" class="product-image tv-image" 
+                            alt="Samsung - 55 The Frame LED 4K UHD Smart TV">
+                        <p class="product-name">Samsung - 55" The Frame LED 4K UHD Smart TV</p>
+                        <p class="product-cost">$1,998.00</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div> 
+
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Television/tv-9.jpg" class="product-image tv-image" 
+                            alt="Samsung - 55 Q70A QLED 4K Ultra HD HDR Smart TV">
+                        <p class="product-name">Samsung - 55" Q70A QLED 4K Ultra HD HDR Smart TV</p>
+                        <p class="product-cost">$1,398.00</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div> 
+
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Television/tv-10.jpg" class="product-image tv-image" 
+                            alt="Samsung 55 LST7 QLED Terrace 4K UHD 120 HZ Outdoor TV Smart TV">
+                        <p class="product-name">Samsung 55" LST7 QLED Terrace 4K UHD 120 HZ Outdoor TV Smart TV</p>
+                        <p class="product-cost">$4,498.00</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div> 
+    
+                        
+                </div>
+
+
+                <hr>
+
+                <!--Speakers-->    
+                <h2 class="sub-category-title" id="speaker">Speaker</h2>
+                <div class="sub-category">
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Speaker/speaker-1.jpg" class="product-image speaker-image-rectangle" 
+                            alt="Monster Bluetooth Speaker">
+                        <p class="product-name">Monster Bluetooth Speaker</p>
+                        <p class="product-cost">$69.99</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div> 
+
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Speaker/speaker-2.jpg" class="product-image speaker-image-square" 
+                            alt="Echo Dot (4th Gen) | Smart speaker with Alexa">
+                        <p class="product-name">Echo Dot (4th Gen) | Smart speaker with Alexa</p>
+                        <p class="product-cost">$69.99</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div> 
+
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Speaker/speaker-3.jpg" class="product-image speaker-image-square" 
+                            alt="Bluetooth Speaker, W-KING 60W RMS(80W Peak)">
+                        <p class="product-name">Bluetooth Speaker, W-KING 60W RMS(80W Peak)</p>
+                        <p class="product-cost">$116.99</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div> 
+
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Speaker/speaker-4.jpg" class="product-image speaker-image-square" 
+                            alt="Anker Soundcore Bluetooth Speaker">
+                        <p class="product-name">Anker Soundcore Bluetooth Speaker</p>
+                        <p class="product-cost">$49.99</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div> 
+
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Speaker/speaker-5.jpg" class="product-image speaker-image-rectangle" 
+                            alt="JBL Flip 4 Portable Waterproof Wireless Bluetooth Speaker">
+                        <p class="product-name">JBL Flip 4 Portable Waterproof Wireless Bluetooth Speaker</p>
+                        <p class="product-cost">$129.98</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div> 
+
+
+                </div>
+                    
+                <hr>
+
+                <!--Headphones-->
+                <h2 class="sub-category-title" id="headphone">Headphone</h2>
+                <div class="sub-category">
+                    
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Headphone/headphone-1.jpg" class="product-image headphone-image" 
+                            alt="Apple AirPods with Charging Case">
+                        <p class="product-name">Apple AirPods with Charging Case</p>
+                        <p class="product-cost">$159.98</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div> 
+
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Headphone/headphone-2.jpg" class="product-image headphone-image" 
+                            alt="Apple EarPods with Lightning Connector">
+                        <p class="product-name">Apple EarPods with Lightning Connector</p>
+                        <p class="product-cost">$24.94</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div> 
+
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Headphone/headphone-3.jpg" class="product-image headphone-image" 
+                            alt="Bose Noise Cancelling Headphones 700">
+                        <p class="product-name">Bose Noise Cancelling Headphones 700</p>
+                        <p class="product-cost">$479.99</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div> 
+
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Headphone/headphone-4.jpg" class="product-image headphone-image" 
+                            alt="True Wireless Earbuds">
+                        <p class="product-name">True Wireless Earbuds</p>
+                        <p class="product-cost">$24.44</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div> 
+
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Headphone/headphone-5.jpg" class="product-image headphone-image" 
+                            alt="Tribit Wireless Earbuds">
+                        <p class="product-name">Tribit Wireless Earbuds</p>
+                        <p class="product-cost">$57.99</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div> 
+
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Headphone/headphone-6.jpg" class="product-image headphone-image" 
+                            alt="Sony WH-1000XM4 Wireless Headphones">
+                        <p class="product-name">Sony WH-1000XM4 Wireless Headphones</p>
+                        <p class="product-cost">$399.97</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div> 
+
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Headphone/headphone-7.jpg" class="product-image headphone-image" 
+                            alt="Monster Wireless Earbuds">
+                        <p class="product-name">Monster Wireless Earbuds</p>
+                        <p class="product-cost">$84.99</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div> 
+
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Headphone/headphone-8.jpg" class="product-image headphone-image" 
+                            alt="FUKVEE Wireless Earbuds Bluetooth 5.0 Headphones">
+                        <p class="product-name">FUKVEE Wireless Earbuds Bluetooth 5.0 Headphones</p>
+                        <p class="product-cost">$14.99</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div> 
+
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Headphone/headphone-9.jpg" class="product-image headphone-image" 
+                            alt="JBL Tune 500BT Wireless Bluetooth On-Ear Headphones">
+                        <p class="product-name">JBL Tune 500BT Wireless Bluetooth On-Ear Headphones</p>
+                        <p class="product-cost">$74.31</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div> 
+
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Headphone/headphone-10.jpg" class="product-image headphone-image" 
+                            alt="ISOtunes Xtra Bluetooth Earplug Headphones">
+                        <p class="product-name">ISOtunes Xtra Bluetooth Earplug Headphones</p>
+                        <p class="product-cost">$79.99</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div> 
+
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Headphone/headphone-11.jpg" class="product-image headphone-image" 
+                            alt="Avantree Ensemble Bluetooth 5.0 Wireless Headphones">
+                        <p class="product-name">Avantree Ensemble Bluetooth 5.0 Wireless Headphones</p>
+                        <p class="product-cost">$139.99</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div> 
+
+                </div>
+                    
+                <hr>
+
+                <!--Electronic Accessories-->
+                <h2 class="sub-category-title" id="electronic-accessories">Electronic Accessories</h2>
+                <div class="sub-category">
+                        
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Electronic Accessories/accessory-1.jpg" class="product-image accessory-image" 
+                            alt="Apple Lightning to 3.5 mm Headphone Jack Adapter">
+                        <p class="product-name">Apple Lightning to 3.5 mm Headphone Jack Adapter</p>
+                        <p class="product-cost">$8.98</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div> 
+
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Electronic Accessories/accessory-2.jpg" class="product-image accessory-image" 
+                            alt="">
+                        <p class="product-name">iPhone Lightning to 3.5mm Headphone Jack Adapter/ Charger </p>
+                        <p class="product-cost">$14.99</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div> 
+
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Electronic Accessories/accessory-3.jpg" class="product-image accessory-image" 
+                            alt="Phone Charger Cable, 3 Pack">
+                        <p class="product-name">Phone Charger Cable, 3 Pack</p>
+                        <p class="product-cost">$16.99</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div> 
+
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Electronic Accessories/accessory-4.jpg" class="product-image accessory-image" 
+                            alt="INIU USB C Cable, [3 Pack]">
+                        <p class="product-name">INIU USB C Cable, [3 Pack]</p>
+                        <p class="product-cost">$14.98</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div> 
+
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Electronic Accessories/accessory-5.jpg" class="product-image accessory-image" 
+                            alt="USB C Male to USB 3.0 Female Adapter 3-Pack">
+                        <p class="product-name">USB C Male to USB 3.0 Female Adapter 3-Pack</p>
+                        <p class="product-cost">$12.99</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div> 
+
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Electronic Accessories/accessory-6.jpg" class="product-image accessory-image" 
+                            alt="Phone Charger Cable">
+                        <p class="product-name">Phone Charger Cable</p>
+                        <p class="product-cost">$16.14</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div> 
+
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Electronic Accessories/accessory-7.jpg" class="product-image accessory-image" 
+                            alt="Anker Portable Charger">
+                        <p class="product-name">Anker Portable Charger</p>
+                        <p class="product-cost">$64.94</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div> 
+
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Electronic Accessories/accessory-8.jpg" class="product-image accessory-image" 
+                            alt="INIU Portable Charger">
+                        <p class="product-name">INIU Portable Charger</p>
+                        <p class="product-cost">$35.99</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div> 
+
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Electronic Accessories/accessory-9.jpg" class="product-image accessory-image" 
+                            alt="USB Charger Station 10 Port">
+                        <p class="product-name">USB Charger Station 10 Port</p>
+                        <p class="product-cost">$28.99</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div> 
+
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Electronic Accessories/accessory-10.jpg" class="product-image accessory-image" 
+                            alt="Cell Phone Camera Lens Kit">
+                        <p class="product-name">Cell Phone Camera Lens Kit</p>
+                        <p class="product-cost">$42.46</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div> 
+
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Electronic Accessories/accessory-11.jpg" class="product-image accessory-image" 
+                            alt="SanDisk 128GB Ultra microSDXC UHS-I Memory Card">
+                        <p class="product-name">SanDisk 128GB Ultra microSDXC UHS-I Memory Card</p>
+                        <p class="product-cost">$21.99</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div> 
+
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Electronic Accessories/accessory-12.jpg" class="product-image accessory-image" 
+                            alt="Selfie Stick Tripod">
+                        <p class="product-name">Selfie Stick Tripod</p>
+                        <p class="product-cost">$35.99</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div> 
+
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Electronic Accessories/accessory-13.jpg" class="product-image accessory-image" 
+                            alt="Toshiba Canvio Basics 4TB Portable External Hard Drive">
+                        <p class="product-name">Toshiba Canvio Basics 4TB Portable External Hard Drive</p>
+                        <p class="product-cost">$109.64</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div> 
+
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Electronic Accessories/accessory-14.jpg" class="product-image accessory-image" 
+                            alt="Wireless Keyboard and Mouse Combo">
+                        <p class="product-name">Wireless Keyboard and Mouse Combo</p>
+                        <p class="product-cost">$35</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div> 
+
+                    <div class="product-wrapper">
+                        <img src="images/Electronic Devices/Electronic Accessories/accessory-15.jpg" class="product-image accessory-image" 
+                            alt="Mechanical Gaming Keyboard">
+                        <p class="product-name">Mechanical Gaming Keyboard</p>
+                        <p class="product-cost">$69.99</p>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div> 
+
+
+                </div>
+
+            </main>
+
+            <!--Consistent Footer-->
+            <footer>
+                    <div id = "footer-about-us">
+                        <img src="images/logo1.png" alt="TechnoShop logo">
+                        <p><span>ADDRESS:</span> 777 Albion Road, Etobicoke, <br> M9V 2J1, ON, Canada</p>
+                        <p><span>PHONE:</span> +1 437-991-7639</p>
+                        <p><span>EMAIL:</span> technoshop@studybuddies.com</p>
+                    </div>
+
+                    
+
+                    <div id = "footer-navigation">
+                        <h4>Navigate:</h4>
+                        <ul>
+                            <li><a href="home.html">Home</a></li>
+                            <li><a href="my-account.html">My Account</a></li>
+                            <li><a href="faq.html">FAQ</a></li>
+                            <li><a href="shoppingcart.html">My Cart</a></li>
+                            <li><a href="Contactus.html">Contact us</a></li>
+                            <li><a href="login.html">Login</a></li>
+                            <li><a href="Register.html">Register</a></li>
+                        </ul>
+                    </div>
+
+                    <div id = "footer-shop">
+                        <h4>Shop:</h4>
+                        <ul>
+                            <li><a href="clothes.html">Clothing</a></li>
+                            <li><a href="accessories.html">Accessories</a></li>
+                            <li><a href="homeappliances.html">Home Appliances</a></li>
+                            <li><a href="electronic-devices.html">Electronic Devices</a></li>
+                            <li><a href="Groceryitem.html">Grocery</a></li>
+                        </ul>
+                    </div>
+
+                    <div id = "footer-team-members">
+                        <h4>Team Members:</h4>
+                        <ul>
+                            <li>Mansi Patel (Team lead)</li>
+                            <li>Rahul Tiwari</li>
+                            <li>Raina Patel</li>
+                            <li>Raveena Katariya</li>
+                            <li>Rohan Patel</li>
+                        </ul>
+
+                        <h4>Follow us:</h4>
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+                    </div>
+                    
+                    <div id = "footer-copyright">
+                        Copyright &copy; 2021 Study Buddies 
+                    </div>
+            </footer>
+        </div>
+    </body>
+</html>

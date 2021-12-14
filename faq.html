@@ -1,0 +1,210 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Adding favicon to the page-->
+        <link rel="shortcut icon" href="images/logo3.png"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!--Page title-->
+        <title>TechnoShop | FAQ page</title>
+        <!--CSS files-->
+        <link rel="stylesheet" href="styles/faqcss.css">
+        <link rel="stylesheet" href="styles/header-footer-nav.css">
+        <!--Javascript files-->
+        <script src="js/navigation.js"></script>
+        
+        
+    </head>
+
+    <body>
+        <!--Consistent Header-->
+        <header>
+            <img id="technoshop-logo" src="images/logo3.png" alt="TechnoShop logo">
+            <div>
+                <h1>TechnoShop</h1>
+                <p id ="tag-line">Shopping at its best</p>
+            </div>
+            <img id="header-gif"  src="images/logo.gif" alt="Happy Shopping">    
+        </header>
+
+        <!--Consistent Navigation Bar-->
+        <nav>
+            <ul>
+                <li id="logged-in-user"></li>  <!--Hidden element, which only appears when user logged-in -->     
+                <li><a href="home.html">Home</a></li>
+                <li><a href="my-account.html">My account</a></li>
+                <li>
+                    <a href="#">Shop</a>
+                    <ul class="drop-down">
+                        <li><a href="clothes.html">Clothing</a></li>
+                        <li><a href="accessories.html">Accessories</a></li>
+                        <li><a href="homeappliances.html">Home Appliances</a></li>
+                        <li><a href="electronic-devices.html">Electronic Devices</a></li>
+                        <li><a href="Groceryitem.html">Grocery</a></li>
+                    </ul>
+                </li>    
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="shoppingcart.html">My Cart</a></li>
+                <li><a href="Contactus.html">Contact us</a></li>
+                <li id="login"><a href="login.html">Login</a></li>
+                <li id="register"><a href="Register.html">Register</a></li>
+                <li id="logout"><a href="#">Logout</a></li>
+                
+            </ul>
+        </nav>
+            <aside>                     <!--Side-bar-->
+                <h2>FAQS Sections</h2>
+                <ul>
+                
+                   <li><a href="#" >Billing & Shipping </li><br>
+                   <li><a href="#offers">Offers & Discounts</a></li><br>
+                   <li><a href="#return">Return Policy</a></li><br>
+                   <li><a href="#refund">Refund Policy </a></li>
+                </ul>
+             
+          </aside>
+          <main>                 <!--Main Content-->
+            <h1>Billing & shipping</h1>     <!--this is  for billing and shipping related question-->
+                 <div class ="faqs">
+                    <button class="accordion">Where i can track my order?</button>
+                    <div class="panel">
+                    <p>first go on the your orders section then select the item and then go on the track order thats how you can track your order</p>
+                    </div>
+                    <button class="accordion">What is the delivery charge?</button>
+                    <div class="panel">
+                    <p>Ther is no delivery charge if your order is above 499. if not then delivery charge will be 50 to 150rs according to your address</p>
+                    </div>
+                    <button class="accordion">when will i receive my order?</button>
+                    <div class="panel">
+                    <p>->you will receive your order before expected date that we are mentioned in your order</p>
+                    </div>
+                    <button class="accordion">What do i do if i did not receive my order?</button>
+                    <div class="panel">
+                    <p>>you will get full refund for the order that you didn't received</p>
+                    </div>
+                    <button class="accordion">what if i want to change my delivery address?</button>
+                    <div class="panel">
+                    <p>->you can not change the address once your order is done</p>
+                    </div>
+                    <button class="accordion">did you provide pickup store to pick up my product?</button>
+                    <div class="panel">
+                    <p>->yes we provide pickup where you can pickup your order when it is deliveried</p>
+                    </div>
+                 </div>
+
+                 
+                 <h1 id="offers">Offers and Discounts</h1> <!--this is for offers and discount realted question -->
+                 <div class ="faqs">
+                    <button class="accordion">when mega sell will be avilable?</button>
+                    <div class="panel">
+                    <p>mega sell will be avilable on every first week of the month</p>
+                    </div>
+                    <button class="accordion">Is there any common Discounts on every product?</button>
+                    <div class="panel">
+                    <p>there is a 10% off on every product that you buy</p>
+                    </div>
+                    <button class="accordion">Did you provide buy 1 get 1 free offer?</button>
+                    <div class="panel">
+                    <p>we provide buy 1 get 1 free offer only on selected clothes</p>
+                    </div>
+                 </div>
+                 <h1 id="return">Return Policy</h1> <!--this is for return policy related question-->
+                     <div class="faqs">
+                        <button class="accordion">how can i Return my product?</button>
+                        <div class="panel">
+                        <p>first go on your orders then click on the product that you want to return then click on return and complete some steps</p>
+                        </div>
+                        <button class="accordion">How can i check my product is returnable or not?</button>
+                        <div class="panel">
+                        <p>it will be avilable below the price of the product that you want to purchase.</p>
+                        </div>
+                        <button class="accordion">In how many days i can return my product?</button>
+                        <div class="panel">
+                        <p>you can return it withing the 30 days time period</p>
+                        </div>
+                        <button class="accordion">Is there any fee assosiated with return Policy?</button>
+                        <div class="panel">
+                        <p>we are not charching any fee to return your product</p>
+                        </div>
+                  </div>
+                  <h1 id="refund">Refund Policy</h1>   <!--this is for refund policy related question-->
+                      <div class="faqs">
+                        <button class="accordion">can i get full refund of my product ?</button>
+                        <div class="panel">
+                        <p>yes you can get full refund but there are some condition for it </p>
+                        </div>
+                        <button class="accordion">do i get the refund for my product if i purchased it from sale?</button>
+                        <div class="panel">
+                        <p>yes you will get the full refund for every product that you have purchased but make sure you meet our condition to get full refund</p>
+                        </div>
+                      </div>
+               </div> 
+          </main>
+
+<!--Consistent Footer-->
+<footer>
+    <!--About us section of footer-->
+    <div id = "footer-about-us">
+        <img src="images/logo1.png" alt="TechnoShop logo">
+        <p><span>ADDRESS:</span> 777 Albion Road, Etobicoke, <br> M9V 2J1, ON, Canada</p>
+        <p><span>PHONE:</span> +1 437-991-7639</p>
+        <p><span>EMAIL:</span> technoshop@studybuddies.com</p>
+    </div>
+
+    <!--Useful links to navigate the website-->
+    <div id = "footer-navigation">
+        <h4>Navigate:</h4>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="my-account.html">My Account</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="shoppingcart.html">My Cart</a></li>
+            <li><a href="Contactus.html">Contact us</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="Register.html">Register</a></li>
+        </ul>
+    </div>
+
+    <!--Useful links to shop in different categories-->
+    <div id = "footer-shop">
+        <h4>Shop:</h4>
+        <ul>
+            <li><a href="clothes.html">Clothing</a></li>
+            <li><a href="accessories.html">Accessories</a></li>
+            <li><a href="homeappliances.html">Home Appliances</a></li>
+            <li><a href="electronic-devices.html">Electronic Devices</a></li>
+            <li><a href="Groceryitem.html">Grocery</a></li>
+        </ul>
+    </div>
+
+    <!--List of team members of the project and links to social media handles-->
+    <div id = "footer-team-members">
+        <h4>Team Members:</h4>
+        <ul>
+            <li>Mansi Patel (Team lead)</li>
+            <li>Rahul Tiwari</li>
+            <li>Raina Patel</li>
+            <li>Raveena Katariya</li>
+            <li>Rohan Patel</li>
+        </ul>
+
+        <h4>Follow us:</h4>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+    </div>
+    
+    <!--Copyright-->
+    <div id = "footer-copyright">
+        Copyright &copy; 2021 Study Buddies 
+    </div>
+</footer>
+        
+        </div>
+        <script src="js/faq.js"></script>
+            </body>
+            </html>

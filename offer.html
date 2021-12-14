@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Adding favicon to the page-->
+        <link rel="shortcut icon" href="images/logo3.png"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!--Page title-->
+        <title>TechnoShop | Offer page </title>
+        <!--CSS files-->
+        <link rel="stylesheet" href="styles/off$dis.css">
+        <link rel="stylesheet" href="styles/header-footer-nav.css">
+        <!--Javascript files-->
+        <script src="js/navigation.js"></script>
+        
+        
+    </head>
+
+    <body>
+        <!--Consistent Header-->
+        <header>
+            <img id="technoshop-logo" src="images/logo3.png" alt="TechnoShop logo">
+            <div>
+                <h1>TechnoShop</h1>
+                <p id ="tag-line">Shopping at its best</p>
+            </div>
+            <img id="header-gif"  src="images/logo.gif" alt="Happy Shopping">    
+        </header>
+
+        <!--Consistent Navigation Bar-->
+        <nav>
+            <ul>
+                <li id="logged-in-user"></li>  <!--Hidden element, which only appears when user logged-in -->     
+                <li><a href="home.html">Home</a></li>
+                <li><a href="my-account.html">My account</a></li>
+                <li>
+                    <a href="#">Shop</a>
+                    <ul class="drop-down">
+                        <li><a href="clothes.html">Clothing</a></li>
+                        <li><a href="accessories.html">Accessories</a></li>
+                        <li><a href="homeappliances.html">Home Appliances</a></li>
+                        <li><a href="electronic-devices.html">Electronic Devices</a></li>
+                        <li><a href="Groceryitem.html">Grocery</a></li>
+                    </ul>
+                </li>    
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="shoppingcart.html">My Cart</a></li>
+                <li><a href="Contactus.html">Contact us</a></li>
+                <li id="login"><a href="login.html">Login</a></li>
+                <li id="register"><a href="Register.html">Register</a></li>
+                <li id="logout"><a href="#">Logout</a></li>
+                
+            </ul>
+        </nav>
+            <div class="aside">                     <!--navigation-bar-->
+              <ul>
+              
+                 <li><a href="#Grocery">Grocery</a></li>
+                 <li><a href="#electronic-items">Electronic-items</a></li>
+                 <li><a href="#Home-Appliances">Home Appliances</a></li>
+                 <li><a href="#Accessories">Accessories</a></li>
+                 <li><a href="#Clothing">Clothing </a></li>
+              </ul>
+        </div>
+
+
+         <main>      
+          <h2>Grocery</h2> 
+             <div id="Grocery" >      <!--main-content for grocery items-->        
+            <div class="coupon">
+                <img id="technoshop-logo" src="images/offer/grocery/apple.jpg" alt="Apple logo">   <!--i have given id technoshop logo to every image so i don't need to specify width and height everytime-->
+                <div class="container" >
+                  <h2><b>20% OFF YOUR PURCHASE</b></h2>
+                </div>
+                <div class="container">
+                  <button id="Rohan" onclick="myFunction()">Get the code</button>
+                   <p id="demo"></p>
+                </div>
+              </div>
+              <div class="coupon">
+                <img id="technoshop-logo" src="images/offer/grocery/banana.jpg" alt="Banana logo">
+                <div class="container" >
+                  <h2><b>10% OFF YOUR PURCHASE</b></h2>
+                </div>
+                <div class="container">
+                  <button id="Rohan" onclick="myFunction1()">Get the code</button>
+                   <p id="demo1"></p>
+                </div>
+              </div>
+              <div class="coupon">
+                <img id="technoshop-logo" src="images/offer/grocery/chips.jpg" alt="chips LoGO">
+                <div class="container" >
+                  <h2><b>15% OFF YOUR PURCHASE</b></h2>
+                </div>
+                <div class="container">
+                  <button id="Rohan" onclick="myFunction2()">Get the code</button>
+                   <p id="demo2"></p>
+                </div>
+              </div>
+              <div class="coupon">
+                <img id="technoshop-logo" src="images/offer/grocery/beef.jpg" alt="beef logo">
+                <div class="container" >
+                  <h2><b>25% OFF YOUR PURCHASE</b></h2>
+                </div>
+                <div class="container">
+                  <button id="Rohan" onclick="myFunction3()">Get the code</button>
+                   <p id="demo3"></p>
+                </div>
+              </div>
+            </div>
+
+
+
+            <h2>Electronic-items</h2> 
+             <div id="electronic-items" >    <!--main-content for electronic device items-->        
+              <div class="coupon">
+                <img id="technoshop-logo" src="images/offer/Electronic-items/headphone-1.jpg" alt="headphone-1 LoGO">
+                <div class="container" >
+                  <h2><b>30% OFF YOUR PURCHASE</b></h2>
+                </div>
+                <div class="container">
+                  <button id="Rohan" onclick="myFunction4()">Get the code</button>
+                   <p id="demo4"></p>
+                </div>
+              </div>
+              <div class="coupon">
+                <img id="technoshop-logo" src="images/offer/Electronic-items/speaker-2.jpg" alt="speaker logo">
+                <div class="container" >
+                  <h2><b>50% OFF YOUR PURCHASE</b></h2>
+                </div>
+                <div class="container">
+                  <button id="Rohan" onclick="myFunction5()">Get the code</button>
+                   <p id="demo5"></p>
+                </div>
+              </div>
+              <div class="coupon">
+                <img id="technoshop-logo" src="images/offer/Electronic-items/tv-1.jpg" alt="tv-1 logo">
+                <div class="container" >
+                  <h2><b>40% OFF YOUR PURCHASE</b></h2>
+                </div>
+                <div class="container">
+                  <button id="Rohan" onclick="myFunction6()">Get the code</button>
+                   <p id="demo6"></p>
+                </div>
+              </div>
+              <div class="coupon">
+                <img id="technoshop-logo" src="images/offer/Electronic-items/watch-1.jpg" alt="watch LoGO">
+                <div class="container" >
+                  <h2><b>10% OFF YOUR PURCHASE</b></h2>
+                </div>
+                <div class="container">
+                  <button id="Rohan" onclick="myFunction7()">Get the code</button>
+                   <p id="demo7"></p>
+                </div>
+              </div>
+            </div>
+
+            <h2>Home Appliances</h2> 
+            <div id="Home-Appliances" >    <!--main-content for home appliances items -->        
+             <div class="coupon">
+               <img id="technoshop-logo" src="images/offer/Home Appliances/lamp.jpg" alt="lamp image">
+               <div class="container" >
+                 <h2><b>25% OFF YOUR PURCHASE</b></h2>
+               </div>
+               <div class="container">
+                 <button id="Rohan" onclick="myFunction8()">Get the code</button>
+                  <p id="demo8"></p>
+               </div>
+             </div>
+             <div class="coupon">
+               <img id="technoshop-logo" src="images/offer/Home Appliances/electronics_waffle baker.jpg" alt="electronics_waffle image">
+               <div class="container" >
+                 <h2><b>30% OFF YOUR PURCHASE</b></h2>
+               </div>
+               <div class="container">
+                 <button id="Rohan" onclick="myFunction9()">Get the code</button>
+                  <p id="demo9"></p>
+               </div>
+             </div>
+             <div class="coupon">
+               <img id="technoshop-logo" src="images/offer/Home Appliances/toasterandjar.jpg" alt="toasterandjar image">
+               <div class="container" >
+                 <h2><b>10% OFF YOUR PURCHASE</b></h2>
+               </div>
+               <div class="container">
+                 <button id="Rohan" onclick="myFunction10()">Get the code</button>
+                  <p id="demo10"></p>
+               </div>
+             </div>
+             <div class="coupon">
+               <img id="technoshop-logo" src="images/offer/Home Appliances/cabinets.jpg" alt="cabinets image">
+               <div class="container" >
+                 <h2><b>40% OFF YOUR PURCHASE</b></h2>
+               </div>
+               <div class="container">
+                 <button id="Rohan" onclick="myFunction11()">Get the code</button>
+                  <p id="demo11"></p>
+               </div>
+             </div>
+           </div>
+
+
+
+           <h2>Accessories</h2> 
+            <div id="Accessories" >    <!--main-content for Accessories items-->        
+             <div class="coupon">
+               <img id="technoshop-logo" src="images/offer/Accessories/purse.png" alt="purse image">
+               <div class="container" >
+                 <h2><b>35% OFF YOUR PURCHASE</b></h2>
+               </div>
+               <div class="container">
+                 <button id="Rohan" onclick="myFunction12()">Get the code</button>
+                  <p id="demo12"></p>
+               </div>
+             </div>
+             <div class="coupon">
+               <img id="technoshop-logo" src="images/offer/Accessories/img3.jpg" alt="speaker logo">
+               <div class="container" >
+                 <h2><b>25% OFF YOUR PURCHASE</b></h2>
+               </div>
+               <div class="container">
+                 <button id="Rohan" onclick="myFunction13()">Get the code</button>
+                  <p id="demo13"></p>
+               </div>
+             </div>
+             <div class="coupon">
+               <img id="technoshop-logo" src="images/offer/Accessories/fingerring.jpg" alt="fingerring image">
+               <div class="container" >
+                 <h2><b>20% OFF YOUR PURCHASE</b></h2>
+               </div>
+               <div class="container">
+                 <button id="Rohan" onclick="myFunction14()">Get the code</button>
+                  <p id="demo14"></p>
+               </div>
+             </div>
+             <div class="coupon">
+               <img id="technoshop-logo" src="images/offer/Accessories/menwatch.jpeg" alt="watch LoGO">
+               <div class="container" >
+                 <h2><b>15% OFF YOUR PURCHASE</b></h2>
+               </div>
+               <div class="container">
+                 <button id="Rohan" onclick="myFunction15()">Get the code</button>
+                  <p id="demo15"></p>
+               </div>
+             </div>
+           </div>
+
+
+
+           <h2>Clothing</h2> 
+            <div id="Clothing" >    <!--main-content for clothing items-->        
+             <div class="coupon">
+               <img id="technoshop-logo" src="images/offer/Clothing/jeans1.jpg" alt="jeans1 image">
+               <div class="container" >
+                 <h2><b>10% OFF YOUR PURCHASE</b></h2>
+               </div>
+               <div class="container">
+                 <button id="Rohan" onclick="myFunction16()">Get the code</button>
+                  <p id="demo16"></p>
+               </div>
+             </div>
+             <div class="coupon">
+               <img id="technoshop-logo" src="images/offer/Clothing/kids1.jpg" alt="kids dress image">
+               <div class="container" >
+                 <h2><b>20% OFF YOUR PURCHASE</b></h2>
+               </div>
+               <div class="container">
+                 <button id="Rohan" onclick="myFunction17()">Get the code</button>
+                  <p id="demo17"></p>
+               </div>
+             </div>
+             <div class="coupon">
+               <img id="technoshop-logo" src="images/offer/Clothing/winter1.jpg" alt="winter jaket image">
+               <div class="container" >
+                 <h2><b>30% OFF YOUR PURCHASE</b></h2>
+               </div>
+               <div class="container">
+                 <button id="Rohan" onclick="myFunction18()">Get the code</button>
+                  <p id="demo18"></p>
+               </div>
+             </div>
+             <div class="coupon">
+               <img id="technoshop-logo" src="images/offer/Clothing/men1.jpg" alt="men shirt image">
+               <div class="container" >
+                 <h2><b>40% OFF YOUR PURCHASE</b></h2>
+               </div>
+               <div class="container">
+                 <button id="Rohan" onclick="myFunction19()">Get the code</button>
+                  <p id="demo19"></p>
+               </div>
+             </div>
+           </div>
+
+            </main>
+<!--Consistent Footer-->
+<footer>
+    <!--About us section of footer-->
+    <div id = "footer-about-us">
+        <img src="images/logo1.png" alt="TechnoShop logo">
+        <p><span>ADDRESS:</span> 777 Albion Road, Etobicoke, <br> M9V 2J1, ON, Canada</p>
+        <p><span>PHONE:</span> +1 437-991-7639</p>
+        <p><span>EMAIL:</span> technoshop@studybuddies.com</p>
+    </div>
+
+    <!--Useful links to navigate the website-->
+    <div id = "footer-navigation">
+        <h4>Navigate:</h4>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="my-account.html">My Account</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="shoppingcart.html">My Cart</a></li>
+            <li><a href="Contactus.html">Contact us</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="Register.html">Register</a></li>
+        </ul>
+    </div>
+
+    <!--Useful links to shop in different categories-->
+    <div id = "footer-shop">
+        <h4>Shop:</h4>
+        <ul>
+            <li><a href="clothes.html">Clothing</a></li>
+            <li><a href="accessories.html">Accessories</a></li>
+            <li><a href="homeappliances.html">Home Appliances</a></li>
+            <li><a href="electronic-devices.html">Electronic Devices</a></li>
+            <li><a href="Groceryitem.html">Grocery</a></li>
+        </ul>
+    </div>
+
+    <!--List of team members of the project and links to social media handles-->
+    <div id = "footer-team-members">
+        <h4>Team Members:</h4>
+        <ul>
+            <li>Mansi Patel (Team lead)</li>
+            <li>Rahul Tiwari</li>
+            <li>Raina Patel</li>
+            <li>Raveena Katariya</li>
+            <li>Rohan Patel</li>
+        </ul>
+
+        <h4>Follow us:</h4>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+    </div>
+    
+    <!--Copyright-->
+    <div id = "footer-copyright">
+        Copyright &copy; 2021 Study Buddies 
+    </div>
+</footer>
+        <script src="js/offer.js"></script>
+    </div>
+</body>
+</html>
